@@ -1,0 +1,11 @@
+
+echo  please enter your value: 
+read value
+if [ $value == 10 ]
+then
+echo " login successful"
+else 
+echo "login unsuccessful, check value entered"
+fi
+
+
